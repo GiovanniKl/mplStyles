@@ -180,7 +180,7 @@ axes.grid.which     : major
 axes.grid.axis      : both
 axes.titlesize      : large   # fontsize of the axes title
 axes.titley         : None    # at the top, no autopositioning.
-axes.titlepad       : 3.0     # pad between axes and title in points
+axes.titlepad       : 5.0     # pad between axes and title in points
 axes.titleweight    : normal  # font weight for axes title
 axes.labelsize      : medium  # fontsize of the x any y labels
 axes.labelpad       : 2.0     # space between label and axis
