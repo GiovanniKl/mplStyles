@@ -5,7 +5,8 @@ List of my matplotlib styles (`matplotlib` is a graphics/plotting module for Pyt
 Download any of the .mplstyle files and put them in your matplotlib config directory in the directory with other styles, usually\
 `C:\Programy\Python310\Lib\site-packages\matplotlib\mpl-data\stylelib`\
 or\
-`C:\Users\<user>\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data\stylelib`.
+`C:\Users\<user>\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data\stylelib`.\
+You can also check your current config directory by running `matplotlib.get_configdir()` in a Python shell. Then just put the styles in a `stylelib` folder  (create one if not present).
 
 Then just include this line in your script\
 `plt.style.use("style_name_without_extension")`\
