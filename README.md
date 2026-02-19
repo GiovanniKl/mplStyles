@@ -15,10 +15,10 @@ replacing the `style_name_without_extension` with the actual name of the style. 
 
 ## Small explanation/notes on my styles
 ( :star: - my favourite)
-- `jkl_thesis_cmu` - style suitable for theses plots; uses serif Computer Modern font; requires having a given TTF file(s) (romanm italic, bold, bolditalic) with CMU Serif font in the matplotlib config directory (`...\matplotlib\mpl-data\fonts\ttf`)
+- `jkl_thesis_cmu` - style suitable for theses plots; uses serif Computer Modern font; requires having a given TTF file(s) (roman, italic, bold, bolditalic) with CMU Serif font in the matplotlib config directory (`...\matplotlib\mpl-data\fonts\ttf`)
 - `jkl_thesis_djv` - style suitable for theses plots; uses serif DejaVu font
 - `jkl_thesis_djv_farTicks` - same as `jkl_thesis_djv` but with longer ticks(?)
 - `jkl_thesis_djv_sans` :star: - same as `jkl_thesis_djv` but with sans serif version of the DejaVu font
 - `jkl_thesis_djv_t` - same as `jkl_thesis_djv` but with transparent background of the plots
-- `jkl_thesis_segoeui` :star: - same as `jkl_thesis_djv_sans` but with Segoe UI font; requires putting the TTF file(s) into the matplotlib config directory (`...\matplotlib\mpl-data\fonts\ttf`)
-- `jkl_thesis_uni` :star: - same as `jkl_thesis_segoeui` but with standard fonts (Arial/Helvetica, ...) and minor tweaks
+- `jkl_thesis_segoeui` :star: - same as `jkl_thesis_djv_sans` but with Segoe UI font; requires putting the TTF file(s) (roman, italic, bold, bolditalic) into the matplotlib config directory (`...\matplotlib\mpl-data\fonts\ttf`)
+- `jkl_thesis_uni` :star: - same as `jkl_thesis_segoeui` but with standard fonts (Arial/Helvetica, ...) and minor tweaks; suitable for publication-ready figures in vector graphics formats
